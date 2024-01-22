@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Candy-Seller-Panel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="ctn">
+        <div class="ctn-1">
+            <h1>Candy-Shop</h1>
+        </div>
+        <div class="ctn-2">
+            <form id="form" onsubmit="handleSubmit(event)">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Name" required />
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" placeholder=" Price" required />
+
+                <label for="description">Description:</label>
+                <input type="text" id="description" placeholder=" Description" required />
+
+                <label for="quantity">Quantity:</label>
+                <input type="text" id="quantity" placeholder="Quantity" required />
+
+                <label>
+                    <button type="submit" class="add-btn">Add Candy</button>
+                </label>
+            </form>
+        </div>
+    </div>
+    <div class="ctn-3">
+        <div class="header_box">
+            <ul>
+                <li class="ctn">
+                    <ul id="nameList">
+                        NAME
+                    </ul>
+                </li>
+                <li class="ctn">
+                    <ul id="descriptionList">
+                        DESCRIPTION
+                    </ul>
+                </li>
+                <li class="ctn">
+                    <ul id="priceList">
+                        PRICE
+                    </ul>
+                </li>
+                <li class="ctn">
+                    <ul id="quantityList">
+                        QUANTITY
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>

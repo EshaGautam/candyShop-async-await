@@ -1,0 +1,86 @@
+body{
+margin: 0;
+padding: 0;
+background: url(images/customerbox-aXq1oCCjlVM-unsplash.jpg);
+
+
+}
+.ctn{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+.ctn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+    color:blanchedalmond;
+  
+   
+}
+
+.ctn-2{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    box-sizing: border-box;
+    margin-top:10px;
+
+   
+} 
+
+
+input{
+    height: 30px;
+    border: none;
+    opacity: 0.5;
+    color:black;
+
+}
+label{
+     margin-left: 20px;
+     font-size: large;
+     font-family:fantasy;
+
+    
+}
+
+.add-btn{
+   height: 30px;
+  background-color: whitesmoke;
+  border: none;
+  opacity: 0.75;
+
+}
+
+.header_box ul{
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    gap:20px 80px;
+  
+
+}
+
+.ctn ul{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap:20px 80px;
+   
+}
+
+.ctn ul li{
+    font-size: 20px;
+   
+   
+}
+
+#nameList{
+    list-style: disc;
+}
+
